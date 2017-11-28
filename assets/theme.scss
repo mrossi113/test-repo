@@ -1,0 +1,194 @@
+// Designer to Developer translations
+// Light => 300
+// Book => 400
+// Medium => 500
+// Bold => 700
+// Black => 800
+
+// Light | 300
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-light-webfont.eot");
+  src: url("../fonts/texta-light-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-light-webfont.woff") format("woff"),
+  url("../fonts/texta-light-webfont.ttf") format("truetype"), url("../fonts/texta-light-webfont.svg#open_sansregular") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+// Light | italic
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-lightitalic-webfont.eot");
+  src: url("../fonts/texta-lightitalic-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-lightitalic-webfont.woff") format("woff"),
+  url("../fonts/texta-lightitalic-webfont.ttf") format("truetype"), url("../fonts/texta-lightitalic-webfont.svg#open_sansregular") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+// Book | 400
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-book-webfont.eot");
+  src: url("../fonts/texta-book-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-book-webfont.woff") format("woff"),
+  url("../fonts/texta-book-webfont.ttf") format("truetype"), url("../fonts/texta-book-webfont.svg#open_sansregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+// Book | italic
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-bookitalic-webfont.eot");
+  src: url("../fonts/texta-bookitalic-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-bookitalic-webfont.woff") format("woff"),
+  url("../fonts/texta-bookitalic-webfont.ttf") format("truetype"), url("../fonts/texta-bookitalic-webfont.svg#open_sansregular") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+
+// Medium | 500
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-medium-webfont.eot");
+  src: url("../fonts/texta-medium-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-medium-webfont.woff") format("woff"),
+  url("../fonts/texta-medium-webfont.ttf") format("truetype"), url("../fonts/texta-medium-webfont.svg#open_sansregular") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+// Medium | italic
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-mediumitalic-webfont.eot");
+  src: url("../fonts/texta-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-mediumitalic-webfont.woff") format("woff"),
+  url("../fonts/texta-mediumitalic-webfont.ttf") format("truetype"), url("../fonts/texta-mediumitalic-webfont.svg#open_sansregular") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
+// Bold | 700
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-bold-webfont.eot");
+  src: url("../fonts/texta-bold-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-bold-webfont.woff") format("woff"),
+  url("../fonts/texta-bold-webfont.ttf") format("truetype"), url("../fonts/texta-bold-webfont.svg#open_sansregular") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Bold | Italic
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-bolditalic-webfont.eot");
+  src: url("../fonts/texta-bolditalic-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-bolditalic-webfont.woff") format("woff"),
+  url("../fonts/texta-bolditalic-webfont.ttf") format("truetype"), url("../fonts/texta-bolditalic-webfont.svg#open_sansregular") format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+
+// Black | 800
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-black-webfont.eot");
+  src: url("../fonts/texta-black-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-black-webfont.woff") format("woff"),
+  url("../fonts/texta-black-webfont.ttf") format("truetype"), url("../fonts/texta-black-webfont.svg#open_sansregular") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+// Black | Italic
+@font-face {
+  font-family: 'Texta';
+  src: url("../fonts/texta-blackitalic-webfont.eot");
+  src: url("../fonts/texta-blackitalic-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/texta-blackitalic-webfont.woff") format("woff"),
+  url("../fonts/texta-blackitalic-webfont.ttf") format("truetype"), url("../fonts/texta-blackitalic-webfont.svg#open_sansregular") format("svg");
+  font-weight: 800;
+  font-style: italic;
+}
+
+
+//colors needed for these variables
+// Theme colors
+$c-theme-blue: #14558f;
+$c-theme-green: #43956f;
+$c-theme-gray: #535353;
+$c-theme-yellow: #f6c51b;
+
+//other global colors
+$c-red: #cd0d0d;
+$c-white: white;
+$c-black: #141414;
+$c-gray-f2f2f2: #f2f2f2;
+$c-gray-dcdcdc: #dcdcdc;
+$c-gray-a6a6a6: #a6a6a6;
+$c-gray-707070: #707070;
+$c-gray-757575: #757575;
+
+// 18F compliance we can't use variables with the color in the name
+$c-theme-primary: $c-theme-blue !default; 
+$c-theme-secondary: $c-theme-green !default;
+$c-theme-tertiary: $c-theme-yellow !default;
+$c-theme-quaternary: $c-theme-gray !default;
+
+$c-font-base: $c-theme-gray;
+$c-font-dark: $c-black;
+$c-font-medium: $c-gray-707070;
+
+$c-font-heading: $c-black;
+$c-font-inverse: $c-white;
+$c-font-link: $c-theme-blue;
+$c-font-error: $c-red;
+
+$c-bg-comp-title: $c-theme-gray;
+$c-bg-subtle: $c-gray-f2f2f2;
+$c-bg-section: $c-gray-f2f2f2;
+
+$c-bd-divider: $c-gray-dcdcdc;
+$c-bd-divider-dark: $c-theme-gray;
+$c-bd-error: $c-red;
+$c-bd-input: $c-gray-dcdcdc;
+$c-bd-input-dark: $c-gray-757575;
+
+//comp-heading theme for titles
+.ma__comp-heading {
+  @include ma-comp-heading($c-theme-secondary);
+
+  .sidebar &,
+  &--sidebar {
+    @include ma-sidebar-heading($c-bd-divider,$c-font-base);
+  }
+
+  .sidebar--colored & {
+    @include ma-heading-colored($c-bg-comp-title);
+  }
+
+  &--yellow {
+    @include ma-border-decorative($c-theme-yellow, 1);
+  }
+}
+
+//callout link theme
+.ma__callout-link {
+  background-color: tint($c-font-link,90%);
+  border-color: tint($c-font-link,50%);
+  box-shadow: 0 0.25rem 0.5rem rgba(#000, 0.25);
+
+  &:hover &__text {
+    border-bottom-color: rgba($c-font-link,.5);
+  }
+
+  &__text {
+    svg {
+      fill: rgba($c-font-link,.5);
+    }
+  }
+}
