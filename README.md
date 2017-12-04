@@ -12,4 +12,20 @@ Mayflower is an open source repository that was created to be used on the Mass.g
 
 To use Mayflower in theming components....
 
-## links to mayflower, github pages documentation
+## Links to Mayflower, GitHub, and GitHub Pages documentation
+
+### Mayflower
+![]()
+![]()
+![]()
+
+### GitHub
+1. ![GitHub Guides](https://guides.github.com/)
+1. ![On Demand Training for GitHub](https://services.github.com/on-demand/)
+1. ![GitHub Help](https://help.github.com/)
+
+### GitHub Pages
+1. ![GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/)
+1. ![GitHub Pages from GitHub Desktop](https://services.github.com/on-demand/github-desktop/)
+1. ![Troubleshooting GitHub Pages build](https://help.github.com/articles/troubleshooting-github-pages-builds/)
+1. ![What is GitHub Pages? (YouTube video)](https://youtu.be/2MsN8gpT6jY)
