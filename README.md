@@ -26,7 +26,7 @@ To use Mayflower in theming components for a widget or application:
     * [Text](http://mayflower.digital.mass.gov/?p=viewall-atoms-text)
     * [Divider](http://mayflower.digital.mass.gov/?p=atoms-divider)
 
-1. Base, Atoms, and Molecules in Mayflower are the building blocks for pages.
+1. Base, Atoms, and Molecules within Mayflower are the building blocks for elements that could be used in iFrame.
     * Base - Colors
     * Atoms - Buttons, Forms, Headings, Icons, Lists, Media, Table, Text, Divider, and Decorative Link
     * Molecules - Callout Link and Field Submit 
