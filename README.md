@@ -51,7 +51,7 @@ To use Mayflower in theming components for a widget or application:
 
 ### Mayflower
 1. [Mayflower GitHub Repository](https://github.com/massgov/mayflower)
-1. [Mayflower website](http://mayflower.digital.mass.gov/)using the GitHub Pages to publish the website.
+1. [Mayflower website](http://mayflower.digital.mass.gov/) using the GitHub Pages to publish the website.
 1. [Example of Resposity which uses Mayflower (RMV Wait Time Widget)](https://github.com/massgov/rmvwaittime)
 
 ### GitHub
