@@ -38,12 +38,14 @@ To use Mayflower in theming components for a widget or application:
    1. Within the page it will show the component click the Tools (add image) 
    1. In the Tools click the Show Patterns Info (add image)
    1. The patterns will appear on the page click the HTML tab.
-   1. Copy the html code replace *Title Heading* 
-  
-  ``` 
-   <h2 class="ma__comp-heading" id="GUID9827924" tabindex="-1">Title text</h2>
-  ```
-   1. 
+   1. Copy the html code 
+      
+      ``` 
+      
+      <h2 class="ma__comp-heading" id="GUID9827924" tabindex="-1">Title text</h2>
+      
+      ```
+   1. Paste the code to the html page and replace the *Title Heading* 
 
 ## Links to Mayflower, GitHub, and GitHub Pages documentation
 
