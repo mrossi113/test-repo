@@ -5,7 +5,17 @@
 </head>
 <h1>Hello Iframe</h1>
 <body>
-<p>This is the body of the page.</p>
+  <label 
+  for="text-input"
+  class="ma__label ma__label--required ">Text Input</label>
+  <div class="ma__error-msg">you did not type something</div>
+<input 
+  class="ma__input js-is-required" 
+  name="text-input" 
+  id="text-input" 
+  type="text" 
+  placeholder="type something" 
+  data-type="text" required />
 
 </body>
 
