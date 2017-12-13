@@ -58,10 +58,10 @@ Next steps to add CSS and Javascript to the html page:
 
       ```
     Explanation of adding the following CSS and Javascript files to the html page:
-         * `base-theme-generated.css` is theme such as fonts and colors of components within Mayflower
-         * `index-generated.css` is all components within Mayflower
+    * `base-theme-generated.css` is theme such as fonts and colors of components within Mayflower
+    * `index-generated.css` is all components within Mayflower
     
- 1. Before the </body> tag add the following:
+ 1. Before the `</body>` tag add the following:
       ```
       
       <!--Notes that this Mayflower assets-->
@@ -70,8 +70,8 @@ Next steps to add CSS and Javascript to the html page:
       
       ```
       Explanation of adding the following Javascripts files to the html page 
-        * `index-generated.js` is all components within Mayflower 
-        * `vendor-generated.js` is 3rd party dependecies such as jQuery.
+      * `index-generated.js` is all components within Mayflower 
+      * `vendor-generated.js` is 3rd party dependecies such as jQuery.
    
 ## Links to Mayflower, GitHub, and GitHub Pages documentation
 
