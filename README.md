@@ -46,7 +46,31 @@ To use Mayflower in theming components for a widget or application:
       
       ```
    1. Paste the code to the html page and replace the *Title Heading* 
+1. Next steps to add CSS and Javascript to the html page:
+   1. In the `<header> </header>` section the following will be added:
+      ```
+      
+      <link rel="stylesheet" href="https://s3.amazonaws.com/mayflower.digital.mass.gov/assets/css/base-theme-generated.css"  media="all" />
+      <link rel="stylesheet" href="https://s3.amazonaws.com/mayflower.digital.mass.gov/assets/css/index-generated.css" media="all" />
+      <script src="https://s3.amazonaws.com/mayflower.digital.mass.gov/assets/js/vendor/modernizr.js"></script>
 
+      ```
+Explanation of adding the following CSS and Javascript files to the html page:
+    * `base-theme-generated.css` is theme such as fonts and colors of components within Mayflower
+    * `index-generated.css` is all components within Mayflower
+    
+   1. Before the </body> tag add the following:
+      ```
+      
+      <!--Notes that this Mayflower assets-->
+      <script src="https://s3.amazonaws.com/mayflower.digital.mass.gov/assets/js/index-generated.js"></script>
+      <script src="https://s3.amazonaws.com/mayflower.digital.mass.gov/assets/js/vendor-generated.js"></script>
+      
+      ```
+Explanation of adding the following Javascripts files to the html page 
+    * `index-generated.js` is all components within Mayflower 
+    * `vendor-generated.js` is 3rd party dependecies such as jQuery.
+   
 ## Links to Mayflower, GitHub, and GitHub Pages documentation
 
 ### Mayflower
