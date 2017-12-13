@@ -14,23 +14,26 @@
 <body>
    <h2 class="ma__comp-heading" tabindex="-1">Example App 2</h2>
 
-  <section class="ma__select-box js-dropdown ma__select-box--optional">
-  <label
-    for="color-select" 
-    class="ma__select-box__label">Color Scheme:</label>
-  <div class="ma__select-box__field">
-    <select
-      name="color-select"
-      id="color-select" 
-      class="ma__select-box__select js-dropdown-select ">
-              <option value="">Default color scheme</option>
-              <option value="has-theme-black">White on Black scheme</option>
-              <option value="has-theme-white">Black on White scheme</option>
-          </select>
-    <div class="ma__select-box__link">
-      <span class="js-dropdown-link">Default color scheme</span>
-      <span class="ma__select-box__icon"></span></div>
-  </div>
+  <p>This Example App 2 is demostrating three types of Mayflower components. The <a 
+  class="ma__content-link " 
+  href="http://mayflower.digital.mass.gov/?p=atoms-input-radio"
+  title=""><span>Radio Button</span></a>, <a 
+  class="ma__content-link " 
+  href="http://mayflower.digital.mass.gov/?p=atoms-button-as-outline"
+  title=""><span>Submit Button as Outline</span></a>, and <a 
+  class="ma__content-link " 
+  href="http://mayflower.digital.mass.gov/?p=atoms-link"
+  title=""><span>This is a link</span></a>
+  </p>
+ 
+    <span class="ma__input-radio">
+  <input name="radio-test" type="radio" value="radio-button" id="radio-test" checked>
+  <label for="radio-test"><span>Radio Button 1</span></label>
+</span>
+  <span class="ma__input-radio">
+  <input name="radio-test" type="radio" value="radio-button" id="radio-test" checked>
+  <label for="radio-test"><span>Radio Button 2</span></label>
+</span>
      
 </section>
 <button type="button" class="ma__button   ma__button--minor" aria-label="">Submit</button>
